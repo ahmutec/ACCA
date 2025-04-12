@@ -25,13 +25,26 @@ p {
 
 /* Hero Section */
 .hero {
+
+   background: repeating-conic-gradient(#553c9a 0%, #553c9a 10%, #ee4b2b 10%, #ee4b2b 20%, 
+#00c2cb 20%, #00c2cb 30%);
+  /*background: #a30a0a; /* Light background change on hover */
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+  clip-path: polygon(10% 10%, 90% 10%, 100% 100%, 0% 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  stroke: #FDB731;
+	animation-delay: -5s;
+  /*
   background: linear-gradient(#32a852, #1f7d40);
   color: white;
   text-align: center;
-  padding: clamp(1.5rem, 5vw, 2rem) clamp(1rem, 3vw, 1.5rem); /* Responsive padding */
+  padding: clamp(1.5rem, 5vw, 2rem) clamp(1rem, 3vw, 1.5rem); /* Responsive padding /
   clip-path: polygon(6% 10%, 92% 10%, 100% 100%, 0% 100%);
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
-  transition: all 0.4s ease;
+  transition: all 0.4s ease;  */
 }
 
 .hero h1 {
