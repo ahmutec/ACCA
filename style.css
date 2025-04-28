@@ -70,7 +70,8 @@ p {
   padding: clamp(0.3rem, 1.5vw, 0.5rem); /* Responsive padding */
   border: none;
   border-radius: 10px;
-  width: clamp(90px, 20vw, 120px); /* Responsive width */
+  width: fit-content;
+ /* width: clamp(90px, 20vw, 120px); /* Responsive width */
   height: clamp(80px, 15vw, 100px); /* Responsive height */
   font-size: clamp(1rem, 2vw, 1.5rem); /* Responsive font size */
   cursor: pointer;
@@ -171,71 +172,4 @@ footer p {
     gap: 1.5rem;
   }
 }
-    .dropdown-container {
-      width: fit-content; /* Changed to fit-content */
-      padding: 10px;
-     /* background: rgba(205, 205, 255, 0.9);*/
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      text-align: center;
-    }
-
-    select {
-      width: fit-content; /* Changed to fit-content */
-      min-width: 120px; /* Ensure it doesn't shrink too much */
-      padding: 10px 12px;
-      font-size: 16px;
-      border: 2px solid #007bff;
-      border-radius: 8px;
-      background-color: #f8f9fa;
-      color: #333;
-      appearance: none; /* Remove default arrow */
-      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-      background-repeat: no-repeat;
-      background-position: right 12px center;
-      background-size: 20px;
-      cursor: pointer;
-      transition: border-color 0.3s, box-shadow 0.3s;
-    }
-
-    select:focus {
-      outline: none;
-      border-color: #0056b3;
-      box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
-    }
-
-    select option:disabled {
-      color: #888;
-      font-style: italic;
-      background-color: #e9ecef;
-    }
-
-    select option:not(:disabled) {
-      color: #333;
-      background-color: #fff;
-    }
-
-    select option:checked:not(:disabled) {
-      background-color: #007bff;
-      color: #fff;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 600px) {
-      .dropdown-container {
-        padding: 15px;
-      }
-
-      select {
-        font-size: 14px;
-        padding: 10px 14px;
-        min-width: 150px; /* Adjust for smaller screens */
-      }
-    }
-
-    /* Hover effect for non-mobile devices */
-    @media (hover: hover) {
-      select:hover {
-        border-color: #0056b3;
-      }
-    }
+    
