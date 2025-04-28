@@ -174,7 +174,7 @@ footer p {
     .dropdown-container {
       width: fit-content; /* Changed to fit-content */
       padding: 10px;
-      background: rgba(205, 205, 255, 0.9);
+     /* background: rgba(205, 205, 255, 0.9);*/
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       text-align: center;
