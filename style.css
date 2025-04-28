@@ -75,7 +75,7 @@ p {
   height: clamp(70px, 12vw, 80px); /* Responsive height */
   font-size: clamp(0.8rem, 1.5vw, 1.2rem); /* Responsive font size */
   cursor: pointer;
- /* font-weight: bold; */
+ font-weight: bold; 
   transition: background 0.3s, transform 0.3s, box-shadow 0.3s ease;
 }
 
