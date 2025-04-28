@@ -71,6 +71,7 @@ p {
   border: none;
   border-radius: 10px;
  /* width: fit-content; */
+  font-family: 'Courier New', Courier, monospace;
   width: clamp(100px, 25vw, 150px); /* Responsive width */
   height: clamp(70px, 12vw, 80px); /* Responsive height */
   font-size: clamp(0.8rem, 1.5vw, 1.2rem); /* Responsive font size */
