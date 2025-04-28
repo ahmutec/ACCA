@@ -31,7 +31,7 @@ p {
   color: white;
   text-align: center;
   padding: 4rem 0;
-  clip-path: polygon(6% 10%, 90% 6%, 100% 100%, 0% 100%);
+  clip-path: polygon(6% 6%, 94% 6%, 100% 100%, 0% 100%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease;
   stroke: #FDB731;
