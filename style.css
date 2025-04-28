@@ -70,7 +70,7 @@ p {
   padding: clamp(0.3rem, 1.5vw, 0.5rem); /* Responsive padding */
   border: none;
   border-radius: 10px;
-  width: clamp(80px, 15vw, 100px); /* Responsive width */
+  width: clamp(90px, 20vw, 120px); /* Responsive width */
   height: clamp(80px, 15vw, 100px); /* Responsive height */
   font-size: clamp(1rem, 2vw, 1.5rem); /* Responsive font size */
   cursor: pointer;
